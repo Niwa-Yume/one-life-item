@@ -1,51 +1,39 @@
-<div class="bg-background min-h-screen text-text">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One Life Item - Landing Page</title>
 
-  <!-- NAV BAR -->
+</head>
+<body class="bg-background text-text">
 
-  <nav class="bg-primary text-white p-4 flex justify-between items-center shadow-lg">
-    <div class="flex items-center space-x-4">
-      <img src="../assets/logo.png" alt="logo test" class="w-fit h-auto">
-    </div>
-    <ul class="flex space-x-4">
-      <li><a href="#home" class="hover:text-secondary transition duration-300">Accueil</a></li>
-      <li><a href="#about" class="hover:text-secondary transition duration-300">À propos</a></li>
-      <li class="relative group">
-        <a href="#shop" class="hover:text-secondary transition duration-300">Catégorie</a>
-        <ul class="absolute hidden group-hover:block bg-primary text-white mt-2 p-2 space-y-2 rounded shadow-lg">
-          <li><a href="#daily-life" class="hover:text-secondary transition duration-300">Daily Life</a></li>
-          <li><a href="#cuisine" class="hover:text-secondary transition duration-300">Cuisine</a></li>
-          <li><a href="#school" class="hover:text-secondary transition duration-300">Scolaire</a></li>
-          <li><a href="#sport" class="hover:text-secondary transition duration-300">Sport</a></li>
-          <li><a href="#travel" class="hover:text-secondary transition duration-300">Voyage</a></li>
-          <li><a href="#office" class="hover:text-secondary transition duration-300">Bureau/Maison</a></li>
-        </ul>
-      </li>
-      <li><a href="#contact" class="hover:text-secondary transition duration-300">Contact</a></li>
-    </ul>
-  </nav>
+<nav class="bg-primary text-white p-4 flex justify-between items-center shadow-lg">
+  <div class="flex items-center space-x-4">
+    <img src="https://raw.githubusercontent.com/Niwa-Yume/one-life-item/main/src/assets/logo.png" alt="One Life Item Logo" class="h-28">
+  </div>
+  <ul class="flex space-x-4">
+    <li><a href="#products" class="hover:text-accent transition duration-300">Produits</a></li>
+    <li><a href="#contact" class="hover:text-accent transition duration-300">Contact</a></li>
+  </ul>
+</nav>
 
-  <!--Header-->
+<section class="bg-primary text-white p-12 text-center h-screen flex flex-col justify-center items-center">
+  <h1 class="text-5xl font-bold mb-6">Bienvenue chez One Life Item</h1>
+  <p class="text-xl mb-8 max-w-2xl mx-auto">Découvrez notre collection d'articles uniques, conçus pour durer toute une vie. Chez One Life Item, nous croyons en la durabilité et la qualité supérieure.</p>
+  <a href="#products" class="bg-accent text-white p-4 rounded-full shadow hover:bg-secondary transition duration-300 text-lg">Découvrir nos produits</a>
+</section>
 
-  <header class="bg-primary text-white p-4 text-center shadow-md">
-    <h1 class="text-3xl">Bienvenue sur One Life Item</h1>
-    <p>Le site qui veut vous aidez à trouver des objets qui dureront tout votre vie ! </p>
-  </header>
+<section id="products" class="bg-background text-text p-12 text-center h-screen flex flex-col justify-center items-center">
+  <h2 class="text-4xl font-bold mb-6">Nos Produits</h2>
+  <p class="text-xl mb-8 max-w-2xl mx-auto">Explorez notre gamme d'articles conçus pour durer toute une vie, fabriqués à partir des meilleurs matériaux et avec une attention méticuleuse aux détails.</p>
+  <a href="#contact" class="bg-primary text-white p-4 rounded-full shadow hover:bg-secondary transition duration-300 text-lg">En savoir plus</a>
+</section>
 
-  <!--Main-->
+<footer class="bg-secondary text-text p-6 text-center">
+  <p class="mb-4">&copy; 2024 One Life Item. Tous droits réservés.</p>
+  <a href="#contact" class="bg-accent text-white p-3 rounded-full shadow hover:bg-primary transition duration-300">Contactez-nous</a>
+</footer>
 
-  <main class="p-6">
-    <section id="home" class="mb-8 flex flex-col items-center">
-      <img src="https://kasperi.com/cdn/shop/files/FT-BRN_EssentialsSet_1800x1800.jpg?v=1715950217" alt="Kasperi Classic Bag" class="w-2/6 mb-4 rounded-3xl shadow-lg">
-      <h2 class="text-2xl text-secondary mb-2">Le Sac Classique</h2>
-      <p class="mb-4 text-center max-w-xl">Un sac intemporel, fabriqué à la main en Finlande, conçu pour durer toute une vie.</p>
-      <p class="text-xl font-bold mb-4">Prix : 450€</p>
-      <a href="https://kasperi.com/fr" class="bg-accent text-white p-2 rounded shadow hover:bg-secondary transition duration-300">Acheter maintenant</a>
-    </section>
-  </main>
-
-  <!--footer-->
-
-  <footer class="bg-primary text-white p-4 text-center">
-    <p>&copy; 2024 Kasperi</p>
-  </footer>
-</div>
+</body>
+</html>
